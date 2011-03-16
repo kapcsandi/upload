@@ -1,0 +1,4 @@
+*.log
+*.pid
+public/uploads/*
+!public/uploads/.placeholder

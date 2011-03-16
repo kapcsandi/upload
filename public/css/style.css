@@ -1,0 +1,26 @@
+#notification {
+margin:10px 0;
+padding:10px;
+background-color:lightgray;
+width:400px;
+font-size:80%;
+}
+#progressbar {
+width:0;
+height:0px;
+background-color:white;
+}
+input:focus {
+background:lightyellow;
+}
+label {
+width:50px;
+display:block;
+float:left
+}
+input[type="submit"] {
+margin-left:50px;
+}
+span {
+font-size:70%;
+}

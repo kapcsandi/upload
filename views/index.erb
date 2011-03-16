@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FileUpload</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.form.js"></script>
+<script src="/js/jquery.upload.js"></script>
+<link type="text/css" rel="stylesheet" media="all" href="/css/style.css" />
+</head>
+<body>
+  <form id="upload" enctype="multipart/form-data" action="/upload" method="post">
+    <label>File: </label><input name="file" type="file" /><br />
+    <label>Title: </label><input name="title" type="text" /><br />
+    <input type="submit" value="Upload"/>
+  </form>
+<div id="notification">
+  <div id="progressbar"></div>
+  <div id="status">select file - Select a media file to upload (max. 50MB)</div>
+</div>
+<span>sources available <a href="">here</a></span>
+</body>
+</html>
