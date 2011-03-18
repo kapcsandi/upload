@@ -1,1 +1,7 @@
 Basic upload demo with progressbar
+
+. nginx + upload module + upload-progress module
+  wget http://nginx.org/download/nginx-0.9.5.tar.gz
+  /configure --prefix='/opt/nginx' --with-http_ssl_module --with-pcre='../pcre-8.10' --add-module='../nginx-upload-progress-module/' --add-module='../nginx_upload_module-2.2.0/'
+. thin
+. sinatra
